@@ -28,7 +28,7 @@ In v23.0 we have done a lot of work to make it easier to style the grid using pl
 
 We have made various changes to Sass variables. When we have renamed variables, we still support the old variable names for compatibilty, but the changes are listed here for your information.
 
-$ag-header-icon-size, $ag-row-border-width, $ag-transition-speed, $ag-cell-data-changed-color: These vars were defined but not used and have been removed.
+$ag-header-icon-size, $ag-row-border-width, $ag-transition-speed, $ag-cell-data-changed-color, $ag-use-icons-for-pager-buttons: These vars were defined but not used and have been removed.
 
 $ag-foreground-opacity > $ag-foreground-color-opacity
 $ag-alt-icon-color > $ag-checkbox-background-color
