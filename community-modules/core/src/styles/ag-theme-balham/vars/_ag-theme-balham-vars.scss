@@ -6,19 +6,19 @@ $ag-icon-size: 16px !default;
 
 // these three should be changed in environment.ts, too
 $ag-row-height: $ag-grid-size * 7 !default;
-// theme shortcuts
-$ag-default-background: white !default;
-$ag-chrome-background: lighten(#ECF0F1, 3) !default;
-$ag-balham-active: #0091EA !default;
+
+// colours
 $ag-foreground-color: #000 !default;
 $ag-secondary-foreground-color: rgba($ag-foreground-color, 0.54) !default;
 $ag-disabled-foreground-color: rgba($ag-foreground-color, 0.38) !default;
+$ag-background-color: white !default;
+$ag-header-background-color: rgba(#000, 0.05) !default;
+$ag-balham-active: #0091EA !default;
+
 $ag-border-color: #BDC3C7 !default;
 $ag-row-border-color: #D9DCDE !default;
-$ag-checkbox-background-color: $ag-default-background !default;
-$ag-alt-background: #ECF0F1 !default;
 $ag-odd-row-background-color: rgb(252, 253, 254) !default;
-$ag-header-cell-moving-background-color: $ag-default-background !default;
+$ag-header-cell-moving-background-color: $ag-background-color !default;
 
 $ag-header-column-separator-color: transparentize($ag-border-color, 0.5) !default;
 $ag-header-column-separator-height: 50%;
@@ -38,17 +38,10 @@ $ag-selected-row-background-color: lighten($ag-balham-active, 40) !default;
 $ag-checkbox-color: #7F8C8D !default;
 $ag-checkbox-checked-color: $ag-balham-active !default;
 
-$ag-background-color: $ag-default-background !default;
+$ag-control-panel-background-color: #f2f2f2 !default;
 
-$ag-editor-background-color: $ag-chrome-background !default;
-$ag-panel-background-color: $ag-chrome-background !default;
-$ag-tool-panel-background-color: $ag-chrome-background !default;
-$ag-header-background-color: $ag-chrome-background !default;
-
-$ag-row-hover-color: $ag-alt-background !default;
-$ag-chip-background-color: darken($ag-alt-background, 5) !default;
-
-$ag-group-border-color: lighten($ag-border-color, 5%) !default;
+$ag-row-hover-color: $ag-control-panel-background-color !default;
+$ag-chip-background-color: #F00 !default;
 
 // delta changes
 $ag-value-change-delta-up-color: #43a047 !default;
@@ -62,7 +55,7 @@ $ag-column-select-indent-size: $ag-grid-size + $ag-icon-size !default;
 $ag-row-group-indent-size: $ag-grid-size * 3 + $ag-icon-size !default;
 $ag-cell-horizontal-padding: $ag-grid-size * 3 !default;
 
-$ag-balham-tooltip-background-color: #cbd0d3;
+$ag-balham-tooltip-background-color: #cbd0d3 !default;
 
 
 // Fonts

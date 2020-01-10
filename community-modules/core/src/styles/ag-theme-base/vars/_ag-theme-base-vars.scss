@@ -35,6 +35,9 @@ $ag-background-color: #fff !default;
 // Semi-transparent colours work well as the same header colour will work well on any background
 $ag-header-background-color: null !default;
 
+// Background for areas of the interface that contain UI controls, like tool panels and the chart settings menu
+$ag-control-panel-background-color: null !default;
+
 // Colours for checkboxes and similar click-to-select components like toggle buttons and radio buttons
 $ag-checkbox-color: $ag-foreground-color !default;
 $ag-checkbox-checked-color: $ag-foreground-color !default;
@@ -84,10 +87,6 @@ $ag-value-change-delta-down-color: #e53935 !default;
 // Colour for the "chip" that repersents a column that has been dragged onto a drop zone
 $ag-chip-background-color: null !default;
 
-// TODO process these
-$ag-editor-background-color: null !default;
-$ag-panel-background-color: null !default;
-
 //
 // BORDERS
 //
@@ -134,14 +133,6 @@ $ag-header-column-resize-handle: $ag-borders and not $ag-header-column-separator
 
 // TODO replace this with a $ag-borders cascade child $ag-borders-pinned-column
 $ag-scroll-spacer-border: 1px solid if($ag-border-color, $ag-border-color, lightgrey) !default;
-
-$ag-tool-panel-background-color: $ag-background-color !default;
-
-// TODO these should all be null defaulted. Move opinionated styles out of base theme and into balham / material.
-$ag-group-background-color: null !default;
-$ag-group-border-color: null !default;
-$ag-group-title-background-color: null !default;
-$ag-group-toolbar-background-color: null !default;
 
 
 

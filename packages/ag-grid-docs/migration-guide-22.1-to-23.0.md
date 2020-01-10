@@ -54,6 +54,16 @@ $ag-row-stub-background-color: removed. use .ag-row-loading {background-color: x
 
 $ag-row-floating-background-color: removed. Use .ag-row-pinned {background-color: xxx}
 
+$ag-group-border-color: removed
+
+TODO: replaced with new styles, document
+$ag-editor-background-color: null !default;
+$ag-panel-background-color: null !default;
+$ag-group-background-color: null !default;
+$ag-group-border-color: null !default;
+$ag-group-title-background-color: null !default;
+$ag-group-toolbar-background-color: null !default;
+
 ## CSS class renames
 
 ag-group-component

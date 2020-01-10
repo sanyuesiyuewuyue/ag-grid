@@ -102,10 +102,6 @@
         .ag-row-odd {
             background-color: $ag-odd-row-background-color;
         }
-
-        .ag-row-even {
-            background-color: $ag-background-color;
-        }
     }
 
     // NOTE: these don't need an RTL version because the "left spacer" is always the one visually on the left
@@ -156,12 +152,12 @@
         @include ag-card();
         padding: 0;
         height: $ag-row-height;
-        background-color: $ag-editor-background-color;
+        background-color: $ag-control-panel-background-color;
     }
 
     .ag-popup-editor {
         @include ag-card();
-        background-color: $ag-editor-background-color;
+        background-color: $ag-control-panel-background-color;
         padding: 0;
     }
 

@@ -25,7 +25,7 @@
     }
 
     .ag-filter-toolpanel-group-level-0 {
-        @include ag-grid-border(top, $color: $ag-group-border-color);
+        @include ag-grid-border(top, $color: $ag-secondary-border-color);
     }
 
     .ag-filter-toolpanel-expand,

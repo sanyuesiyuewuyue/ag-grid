@@ -43,7 +43,7 @@
     // Rich Select
     ////////////////////////////////////////
     .ag-rich-select {
-        background-color: $ag-editor-background-color;
+        background-color: $ag-control-panel-background-color;
     }
 
     .ag-rich-select-list {
@@ -162,6 +162,7 @@
     }
 
     .ag-toggle-button-icon {
+        background-color: $ag-background-color;
         width: $ag-icon-size;
         height: $ag-icon-size;
         border: 1px solid $ag-checkbox-color;
@@ -169,7 +170,6 @@
         right: calc(100% - #{$ag-icon-size} + 1px);
     }
     .ag-selected .ag-toggle-button-icon {
-        background: $ag-background-color;
         right: -1px;
     }
 
