@@ -170,10 +170,6 @@
         padding: $ag-cell-horizontal-padding;
     }
 
-    .ag-row-stub {
-        background-color: $ag-row-stub-background-color;
-    }
-
     .ag-details-row {
         padding: $ag-grid-size * 5;
     }
@@ -218,14 +214,4 @@
     .ag-floating-bottom {
         border-top: 1px solid $ag-border-color;
     }
-
-    .ag-floating-top,
-    .ag-floating-bottom {
-        background-color: $ag-row-floating-background-color;
-    }
-
-    .ag-row-pinned {
-        background-color: $ag-row-floating-background-color;
-    }
-
 }

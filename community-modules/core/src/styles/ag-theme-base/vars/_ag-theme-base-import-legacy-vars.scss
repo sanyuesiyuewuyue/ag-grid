@@ -222,4 +222,8 @@
   @if (variable-exists("ag-hover-color") and not variable-exists("ag-row-hover-color")) {
     $ag-row-hover-color: $ag-hover-color !global;
   }
+
+  @if (variable-exists("ag-menu-option-active-color") and not variable-exists("ag-selected-row-background-color")) {
+    $ag-selected-row-background-color: $ag-menu-option-active-color !global;
+  }
 }

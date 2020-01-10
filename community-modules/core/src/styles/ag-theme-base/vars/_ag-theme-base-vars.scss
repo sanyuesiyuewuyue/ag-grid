@@ -32,6 +32,7 @@ $ag-disabled-foreground-color: rgba($ag-foreground-color, 0.5) !default;
 $ag-background-color: #fff !default;
 
 // Background for all headers, including the grid header, panels, toolpanel subheadings etc
+// Semi-transparent colours work well as the same header colour will work well on any background
 $ag-header-background-color: null !default;
 
 // Colours for checkboxes and similar click-to-select components like toggle buttons and radio buttons
@@ -80,11 +81,12 @@ $ag-value-change-value-highlight-background-color: transparentize(#16A085, 0.5) 
 $ag-value-change-delta-up-color: #43a047 !default;
 $ag-value-change-delta-down-color: #e53935 !default;
 
+// Colour for the "chip" that repersents a column that has been dragged onto a drop zone
+$ag-chip-background-color: null !default;
 
 // TODO process these
-$ag-menu-option-active-color: null !default;
-$ag-row-stub-background-color: null !default;
-$ag-row-floating-background-color: null !default;
+$ag-editor-background-color: null !default;
+$ag-panel-background-color: null !default;
 
 //
 // BORDERS
@@ -140,11 +142,6 @@ $ag-group-background-color: null !default;
 $ag-group-border-color: null !default;
 $ag-group-title-background-color: null !default;
 $ag-group-toolbar-background-color: null !default;
-
-// TODO imported optionals, can they have sensible defaults? Can definitions be removed from derived themes?
-$ag-chip-background-color: null !default;
-$ag-editor-background-color: null !default;
-$ag-panel-background-color: null !default;
 
 
 

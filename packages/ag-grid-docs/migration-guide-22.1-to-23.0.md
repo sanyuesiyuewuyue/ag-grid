@@ -48,7 +48,11 @@ $ag-accent-color > $ag-checkbox-checked-color
 
 Variables starting `$ag-dialog-` and `$ag-dialog-title-` have been removed. Instead of using these variables, use a css selector like `.ag-panel { ... }` or `.ag-panel-title { ... }`. The full list of removed variables is: $ag-dialog-background-color, $ag-dialog-border-size, $ag-dialog-border-style, $ag-dialog-border-color, $ag-dialog-title-background-color, $ag-dialog-title-foreground-color, $ag-dialog-title-height, $ag-dialog-title-font-family, $ag-dialog-title-font-size, $ag-dialog-title-font-weight, $ag-dialog-title-padding, $ag-dialog-title-icon-size, 
 
-$ag-header-background-image: removed. Apply a style to .ag-header instead
+$ag-header-background-image: removed. .ag-header {background: xxx}
+
+$ag-row-stub-background-color: removed. use .ag-row-loading {background-color: xxx}
+
+$ag-row-floating-background-color: removed. Use .ag-row-pinned {background-color: xxx}
 
 ## CSS class renames
 
@@ -58,6 +62,8 @@ ag-group-component-title-bar-icon
 ag-group-component-title
 ag-group-component-container
 ag-group-component-toolbar
+
+.ag-row-stub > .ag-row-loading
 
 Are now ag-group, ag-group-title-bar etc
 
