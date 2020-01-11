@@ -107,7 +107,9 @@
     }
     
     .ag-group-toolbar {
-        background-color: rgba($ag-subheader-background-color, 0.5);
+        @if $ag-subheader-background-color {
+            background-color: rgba($ag-subheader-background-color, 0.5);
+        }
         padding: $ag-grid-size;
     }
 
@@ -297,6 +299,11 @@
         @include ag-theme-rtl((margin-left: $ag-grid-size));
     }
 
+    .ag-panel-title-bar-button-icon {
+        font-size: $ag-header-height - $ag-grid-size * 2;
+        line-height: $ag-header-height - $ag-grid-size * 2;
+    }
+
     ////////////////////////////////////////
     // Tooltip
     ////////////////////////////////////////
@@ -319,7 +326,7 @@
         align-items: center;
     }
     
-    @for $i from 1 to 20 {
+    @for $i from 1 to 5 {
         .ag-column-select-indent-#{$i} {
             @include ag-theme-rtl((padding-left: $i * $ag-column-select-indent-size));
         }

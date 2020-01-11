@@ -222,4 +222,16 @@
   @if (variable-exists("ag-menu-option-active-color") and not variable-exists("ag-selected-row-background-color")) {
     $ag-selected-row-background-color: $ag-menu-option-active-color !global;
   }
+
+  @if (variable-exists("filter-tool-panel-group-indent") and not variable-exists("ag-filter-tool-panel-group-indent")) {
+    $ag-filter-tool-panel-group-indent: $filter-tool-panel-group-indent !global;
+  }
+
+  @if (variable-exists("filter-tool-panel-top-level-row-height") and not variable-exists("ag-filter-tool-panel-top-level-row-height")) {
+    $ag-filter-tool-panel-top-level-row-height: $filter-tool-panel-top-level-row-height !global;
+  }
+
+  @if (variable-exists("filter-tool-panel-sub-level-row-height") and not variable-exists("ag-filter-tool-panel-sub-level-row-height")) {
+    $ag-filter-tool-panel-sub-level-row-height: $filter-tool-panel-sub-level-row-height !global;
+  }
 }

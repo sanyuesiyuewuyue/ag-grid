@@ -1,11 +1,6 @@
 @import "./ag-theme-base-import-legacy-vars";
 
 
-
-// Optionals TODO move elsewhere
-// TODO See if we can default the values here and remove the overrides from derived themes
-$ag-full-width-tabs: null !default;
-
 //
 // COLOURS
 //
@@ -177,9 +172,14 @@ $ag-rich-select-item-height: $ag-row-height !default;
 $ag-cell-horizontal-padding: $ag-grid-size * 3 !default;
 $ag-cell-widget-spacing: $ag-cell-horizontal-padding !default;
 $ag-virtual-item-height: $ag-grid-size * 5 !default;
-$filter-tool-panel-group-indent: 16px !default;
-$filter-tool-panel-top-level-row-height: $ag-grid-size * 8 !default;
-$filter-tool-panel-sub-level-row-height: $ag-grid-size * 6 !default;
+$ag-column-select-indent-size: $ag-grid-size + $ag-icon-size !default;
+$ag-row-group-indent-size: $ag-grid-size * 3 + $ag-icon-size !default;
+$ag-filter-tool-panel-group-indent: 16px !default;
+$ag-filter-tool-panel-top-level-row-height: $ag-grid-size * 8 !default;
+$ag-filter-tool-panel-sub-level-row-height: $ag-grid-size * 6 !default;
+
+// Cause tabs to stretch across the full width of the tab panel header
+$ag-full-width-tabs: false !default;
 
 // Fonts
 $ag-font-family: 'Helvetica Neue', sans-serif !default;
@@ -196,11 +196,6 @@ $ag-secondary-font-weight: 400 !default;
 // radius applied to popup elements
 $ag-card-radius: $ag-grid-radius !default;
 $ag-card-shadow: none !default;
-
-$ag-column-select-indent-size: $ag-grid-size + $ag-icon-size !default;
-$ag-row-group-indent-size: $ag-grid-size * 3 + $ag-icon-size !default;
-
-
 
 
 // Flags

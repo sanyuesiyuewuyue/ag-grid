@@ -14,14 +14,12 @@ $ag-grid-size: 8px !default;
 $ag-icon-size: 18px !default;
 $ag-header-height: $ag-grid-size * 7 !default;
 $ag-row-height: $ag-grid-size * 6 !default;
-$ag-column-select-indent-size: $ag-grid-size + $ag-icon-size !default;
-$ag-row-group-indent-size: $ag-grid-size * 3 + $ag-icon-size !default;
 $ag-cell-horizontal-padding: $ag-grid-size * 3 !default;
 $ag-virtual-item-height: $ag-grid-size * 5;
-$filter-tool-panel-top-level-row-height: $ag-grid-size * 7 !default;
-$filter-tool-panel-sub-level-row-height: $ag-grid-size * 4 !default;
+$ag-row-group-indent-size: $ag-grid-size * 3 + $ag-icon-size !default;
+$ag-filter-tool-panel-top-level-row-height: $ag-grid-size * 7 !default;
+$ag-filter-tool-panel-sub-level-row-height: $ag-grid-size * 4 !default;
 
-$ag-selected-tab-underline-width: 2px;
 
 // Fonts
 $ag-font-family: "Roboto", sans-serif !default; // legacy: font
@@ -53,9 +51,14 @@ $ag-range-selection-chart-background-color: rgba(0, 88, 255, 0.1) !default;
 $ag-range-selection-highlight-color: #fce4ec !default;
 
 $ag-row-hover-color: #fafafa !default;
+$ag-control-panel-background-color: #fafafa !default;
 $ag-selected-row-background-color: #eee !default;
 
 // Misc
+
+$ag-selected-tab-underline-color: #3f51b5;
+$ag-selected-tab-underline-width: 2px;
+
 $ag-card-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12) !default;
 $ag-card-radius: 2px;
 
@@ -63,7 +66,6 @@ $ag-focused-textbox-border-bottom: 2px solid #3f51b5 !default;
 $ag-input-bottom-border: 2px solid $ag-border-color !default;
 $ag-input-bottom-border-disabled: 1px solid $ag-border-color !default;
 $ag-button-color: #3f51b5 !default;
-$ag-selected-tab-underline-color: #3f51b5;
 $ag-selection-border-color: #3f51b5;
 $ag-button-background-color: transparent !default;
 $ag-input-height: $ag-grid-size * 5 !default;
