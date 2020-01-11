@@ -102,11 +102,12 @@
     }
 
     .ag-group-title-bar {
-        background-color: $ag-header-background-color;
+        background-color: $ag-subheader-background-color;
         padding: $ag-grid-size;
     }
     
     .ag-group-toolbar {
+        background-color: rgba($ag-subheader-background-color, 0.5);
         padding: $ag-grid-size;
     }
 

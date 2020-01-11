@@ -31,9 +31,12 @@ $ag-disabled-foreground-color: rgba($ag-foreground-color, 0.5) !default;
 // Background colour of the grid
 $ag-background-color: #fff !default;
 
-// Background for all headers, including the grid header, panels, toolpanel subheadings etc
-// Semi-transparent colours work well as the same header colour will work well on any background
+// Background colour for all headers, including the grid header, panels, toolpanel subheadings etc
+// Semi-transparent colours work well as the same header colour will well on any background
 $ag-header-background-color: null !default;
+
+// Background colour for second level headings within UI components
+$ag-subheader-background-color: null !default;
 
 // Background for areas of the interface that contain UI controls, like tool panels and the chart settings menu
 $ag-control-panel-background-color: null !default;
